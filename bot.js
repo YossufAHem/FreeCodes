@@ -16,6 +16,8 @@ client.on("message", message => {
 ─══════════════─
 &help3 ⇏ اطلب ملافات بوتات
 ─══════════════─
+&help4 ⇏ فديوهات تعليم علي يوتيوب
+─══════════════─
 ملحوظة البوت معمول للاستفاضة منو مش اكتر
 ─══════════════─
 By @Yo[S]siF#0008
@@ -112,6 +114,25 @@ $Fill  <=اكتب Music JavaFiles لطلب كود
    }
    }); 
 	   
+
+
+   client.on("message", message => {
+	var prefix = "-";
+ if (message.content === "&help1") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`─══════════════─
+PC <=فديو تعليم كيف عمل بوت ميوزك علي كبيوتر 
+─══════════════─
+HR <=فيديو تعليم كيف رفع بوت جافا ميوزك علي هروكو 
+─══════════════─
+قريبا نضيف فديوهات ثاني
+`)
+   message.channel.sendEmbed(embed)
+    
+   }
+   }); 
+
 	   
       client.on("message", message => {
 	var prefix = "-";
@@ -447,6 +468,25 @@ client.on("message", message => {
   });
 
   
-  
+  	var prefix = "-";
+ if (message.content === "PC") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`https://youtu.be/7emzUSQPd3E`)
+   message.author.sendEmbed(embed)
+     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
+   }
+   }); 
+	  
+  	var prefix = "-";
+ if (message.content === "HR") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`https://youtu.be/UmQs8Gz0l-Q`)
+   message.author.sendEmbed(embed)
+     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
+   }
+   }); 
+
 
 client.login(process.env.BOT_TOKEN);
