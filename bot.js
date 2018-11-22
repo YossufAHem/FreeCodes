@@ -151,7 +151,7 @@ $Fill  <=اكتب Music JavaFiles لطلب كود
 	   
 	         client.on("message", message => {
 	var prefix = "-";
- if (message.content === "$Fill ") {
+ if (message.content === "$Fill") {
   const embed = new Discord.RichEmbed()  
       .setColor("#000000") 
       .setDescription(`https://www.mediafire.com/file/5iq54s5vxdo3b45/Music_JavaFiles.rar/file`)
