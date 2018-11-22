@@ -467,26 +467,5 @@ client.on("message", message => {
     client.user.setActivity(`&help | Free Codes.js |  ${client.guilds.size} Server.`)
   });
 
-  
-  	var prefix = "-";
- if (message.content === "PC") {
-  const embed = new Discord.RichEmbed()  
-      .setColor("#000000") 
-      .setDescription(`https://youtu.be/7emzUSQPd3E`)
-   message.author.sendEmbed(embed)
-     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
-   }
-   }); 
-	  
-  	var prefix = "-";
- if (message.content === "HR") {
-  const embed = new Discord.RichEmbed()  
-      .setColor("#000000") 
-      .setDescription(`https://youtu.be/UmQs8Gz0l-Q`)
-   message.author.sendEmbed(embed)
-     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
-   }
-   }); 
-
 
 client.login(process.env.BOT_TOKEN);
