@@ -118,7 +118,7 @@ $Fill  <=اكتب Music JavaFiles لطلب كود
 
    client.on("message", message => {
 	var prefix = "-";
- if (message.content === "&help1") {
+ if (message.content === "&help4") {
   const embed = new Discord.RichEmbed()  
       .setColor("#000000") 
       .setDescription(`─══════════════─
