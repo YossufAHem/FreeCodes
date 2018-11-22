@@ -462,7 +462,7 @@ client.on("message", message => {
  if (message.content === "PC") {
   const embed = new Discord.RichEmbed()  
       .setColor("#000000") 
-      .setDescription(`https://www.mediafire.com/file/48q1dcq0q9rmikh/Speed_Bot.rar/file`)
+      .setDescription(`https://youtu.be/7emzUSQPd3E`)
    message.author.sendEmbed(embed)
      message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
    }
@@ -474,7 +474,7 @@ client.on("message", message => {
  if (message.content === "HR") {
   const embed = new Discord.RichEmbed()  
       .setColor("#000000") 
-      .setDescription(`https://www.mediafire.com/file/48q1dcq0q9rmikh/Speed_Bot.rar/file`)
+      .setDescription(`https://youtu.be/UmQs8Gz0l-Q`)
    message.author.sendEmbed(embed)
      message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
    }
