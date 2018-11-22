@@ -457,7 +457,29 @@ client.on("message", message => {
    }
    }); 
    
+           client.on("message", message => {
+	var prefix = "-";
+ if (message.content === "PC") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`https://www.mediafire.com/file/48q1dcq0q9rmikh/Speed_Bot.rar/file`)
+   message.author.sendEmbed(embed)
+     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
+   }
+   }); 	  
    
+
+client.on("message", message => {
+	var prefix = "-";
+ if (message.content === "HR") {
+  const embed = new Discord.RichEmbed()  
+      .setColor("#000000") 
+      .setDescription(`https://www.mediafire.com/file/48q1dcq0q9rmikh/Speed_Bot.rar/file`)
+   message.author.sendEmbed(embed)
+     message.channel.send(`تم ارسالك في الخاص :mailbox_with_mail:`)
+   }
+   }); 	  
+
    client.on('ready', () => {
   console.log(`-------------------------------
   [Start] ${new Date()}`);
