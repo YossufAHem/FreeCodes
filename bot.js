@@ -90,9 +90,7 @@ roles <=اكتب roles لطلب كود
  if (message.content === "&help3") {
   const embed = new Discord.RichEmbed()  
       .setColor("#000000") 
-      .setDescription(`id <=اكتب id لطلب كود 
-	  
-─══════════════─	  
+      .setDescription(`─══════════════─	  
 @Fill <=اكتب Speed BOT طلب ملف اكتب
 ─══════════════─
 *Fill <=اكتب PlatinumBot طلب ملف اكتب
